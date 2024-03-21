@@ -7,10 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DiocApplication {
 
 	public static void main(String[] args) {
-		//SpringApplication.run(DiocApplication.class, args);
-
-		var context = SpringApplication.run(DiocApplication.class);
-
+		SpringApplication.run(DiocApplication.class);
 	}
 
 }
